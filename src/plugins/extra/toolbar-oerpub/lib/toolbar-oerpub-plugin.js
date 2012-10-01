@@ -26,7 +26,7 @@
     }
   ];
 
-  toolbarSettings = ['bold', 'italic', 'underline', 'createTable'];
+  toolbarSettings = ['bold', 'italic', 'underline', '', 'createTable'];
 
   define(["aloha", "aloha/plugin", "ui/ui", 'ribbon/ribbon-plugin', '../../appmenu/appmenu', "i18n!format/nls/i18n", "i18n!aloha/nls/i18n", "aloha/console", "css!toolbar-oerpub/css/toolbar-oerpub.css"], function(Aloha, Plugin, Ui, Ribbon, appmenu, i18n, i18nCore) {
     var CONTAINER_JQUERY;
